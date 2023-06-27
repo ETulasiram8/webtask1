@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+        <link rel ="stylesheet" href="style.css">
+    </head> 
+    <body>
+        <div id ="sectionHome">
+            <div class=" container d-flex flex-column justify-content-center">
+                <div class="container1">
+                     <h1 class="Heading">Tourism</h1>
+                     <p class="paragraph">plan your trip whereever yoy want to go</p>
+                     <button class="button" onclick="display('sectionFavouratePlace')"> Get Start</button>
+                </div>
+          
+            </div>
+        </div>
+            <div id="sectionFavouratePlace">
+                <div class="bg-container">
+                        <h1 class="favourate-places-heading">Favourite Places</h1>
+                    <div class="favourate-places-card-container d-flex flex-row" onclick="display('sectionDetailedView')"> 
+                        <div>
+                           <h class="favourate-places-card-heading">Taj Mahal</h> 
+                           <p class="favourate-places-card-description">If there was just one symbol to represent all of India, it would be
+                                the Taj Mahal</p>
+                        </div> 
+                           <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png" class="image"/>
+
+                    </div>
+                    <div class="favourate-places-card-container d-flex flex-row" onclick="display('sectionDetailed')"> 
+                        <div>
+                             <h class="favourate-places-card-heading">Golden Temple</h> 
+                             <p class="favourate-places-card-description">Amritsar is world-famous for the beautiful and highly revered Golden
+                                 Temple</p>
+                        </div> 
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/golden-temple-img.png" class="image"/>
+
+                    </div>
+                        <div class="favourate-places-card-container d-flex flex-row" onclick="display('sectionMysore')"> 
+                            <div>
+                                <h class="favourate-places-card-heading">Mysore Place</h> 
+                                <p class="favourate-places-card-description">The Mysore Palace is a historical palace and the royal residence at
+                                    Mysore .</p>
+                            </div> 
+                                 <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace-img.png" class="image"/>
+
+                        </div>
+                  <button class="btn btn-dark" onclick="display('sectionHome')">back</button>
+
+                </div> 
+            </div>
+        <div id="sectionDetailedView">
+
+            <div class="detailed-view-bg-container"> 
+                      <h class="detailed-view-heading">Detailed Veiw</h>
+                <div class="detailed-view-card-container">
+                    <div class="embed-responsive embed-responsive-16by9">
+                       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/49HTIoCccDY?rel=0" allowfullscreen></iframe>
+                    </div>
+                        <div class="detailed-view-card-text-container">
+                    
+                    
+                             <h class="detailed-view-card-heading">Taj Mahal</h>
+                             <p class="detailed-view-card-descriptin">The Taj Mahal is considered to be the greatest architectural
+                                achievement in the whole range of Indo-Islamic architecture. Its
+                                recognised architectonic beauty has a rhythmic combination of solids
+                                and voids, concave and convex and light shadow; such as arches and
+                                domes further increases the aesthetic aspect. Not a piece of
+                                architecture, as other buildings are, but the proud passions of an
+                                emperor’s love wrought in living stones.</p>
+
+                        </div>
+
+                </div>
+               <button class="btn btn-dark" onclick="display('sectionFavouratePlace')">back</button>
+            </div>
+        </div>
+    <div id="sectionDetailed">
+        <div class="detailed-view-bg-container"> 
+            <h class="detailed-view-heading">Detailed Veiw</h>
+            <div class="detailed-view-card-container">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QqUUUYO9uuw?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="detailed-view-card-text-container">
+          
+          
+                   <h class="detailed-view-card-heading">Golden Temple</h>
+                   <p class="detailed-view-card-descriptin">The Golden Temple, also known as Harmandir Sahib is a gurdwara
+                    located in the city of Amritsar, Punjab, India. There are many
+                    places to visit Near Golden Temple like Jallianwala Bagh, Wagah Border, Harike Wetland, Bathinda Fort.</p>
+
+                </div>
+
+            </div>
+           <button class="btn btn-dark" onclick="display('sectionFavouratePlace')">back</button>
+        </div>
+
+    </div> 
+    <div id="sectionMysore">
+        <div class="detailed-view-bg-container"> 
+            <h class="detailed-view-heading">Detailed Veiw</h>
+            <div class="detailed-view-card-container">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JvFoolNzA_k?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="detailed-view-card-text-container">
+          
+          
+                   <h class="detailed-view-card-heading">Mysore Palase</h>
+                   <p class="detailed-view-card-descriptin">Mysore Palace, also called Amba Vilas Palace, is one of the most magnificent and largest palaces in India. Situated in the southern state of Karnataka, it used to be the official residence of the Wodeyar Dynasty, the rulers of Mysore from 1399 to 1950. The grand palace stands tall in the heart of Mysore city and attracts visitors from across the world. Being one of the prime attractions in India after the Taj Mahal, it certainly deserves a place in every traveler’s bucket list.</p>
+
+                </div>
+
+            </div>
+           <button class="btn btn-dark" onclick="display('sectionFavouratePlace')">back</button>
+        </div>
+
+    </div>  
+        <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+        
+        
+    </body>
+</html>

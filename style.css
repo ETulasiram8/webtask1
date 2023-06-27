@@ -1,0 +1,96 @@
+.container {
+    background-image:url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
+    background-size:cover;
+    height:100vh;
+}
+.container1 {
+    background-color:white;
+    text-align: center;
+    padding: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px; 
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+}
+.button {
+    height: 36px;
+    width: 138px;
+    background-color: #25b1cc;
+    color: white;
+    border-radius: 20px;
+    border-width: 0px;
+}
+.Heading {
+    font-family:"Roboto";
+
+} 
+.paragraph {
+    font-family:"Roboto";
+}
+.bg-container {
+    background-image:url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+    background-size:cover;
+    height:100vh;
+}
+.favourate-places-heading {
+    font-family:"Roboto";
+    font-weight:bold; 
+    font-size:30px; 
+    padding:24px; 
+    color:white;
+}
+.favourate-places-card-container {
+    background-color:white; 
+    border-radius:8px; 
+    padding:16px;
+    margin:15px;
+}
+.favourate-places-card-heading { 
+    font-family:"Roboto"; 
+    font-size:35px;
+    font-weight:"bold";
+    color:#0f0e46;
+
+}
+.favourate-places-card-description {
+    font-family:"Roboto";
+    font-size: 13px; 
+    color:#6c6b70;
+
+}
+.image {
+    height:100px;
+    width:80px;
+}
+.detailed-view-bg-container {
+background-image:url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+background-size:cover;
+height:100vh;
+}
+.detailed-view-heading {
+    font-family:"Roboto";
+    font-size:28px;
+    color:white;
+    font-weight:bold;
+    padding:24px;
+}
+.detailed-view-card-container {
+    background-color:white;
+    border-bottom-right-radius:8px;
+    border-bottom-left-radius:8px;
+    margin:24px;
+}
+.detailed-view-card-heading {
+    color: #0f0e46;
+  font-family: "Roboto";
+  font-size: 23px;
+  font-weight: bold;
+}
+.detailed-view-card-description {
+    color: #6c6b70;
+  font-family: "Roboto";
+  font-size: 13px;
+}
+.detailed-view-card-text-container {
+    padding: 16px;
+  }
